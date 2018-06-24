@@ -1,4 +1,6 @@
 #coding = utf-8
+from abs import abs
+
 class animal:
 
     def __init__(self,name,age):
@@ -11,3 +13,7 @@ class animal:
 
 dog = animal("小花", 2)
 dog.say()
+
+print("------------------")
+num = abs(-99)
+print(num)
